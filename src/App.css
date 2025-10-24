@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+  text-align: center;
+}
+
+/* app page */
+
+.botao-inicio , .botao-animais{
+  background:#ff9800 ;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 18px;
+  cursor: pointer;
+  
+}
+
+.nav-app{
+  margin-top: 30px;
+  display:flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* componentes */
+/* header */
+header{
+background-color:#ff9800 ;
+color: white;
+padding: 45px;
+text-align: center;
+display: flex;
+gap: 50%;
+}
+
+
+/* Animal card */
+
+
+
+
+.animal-card {
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 10px;
+margin: 10px;
+max-width: 200px;
+width: auto;
+text-align: center;
+}
+
+
+.animal-card img{
+  width: 70%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+ 
+.animal-card button{
+  background:#ff9800 ;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Modal */
+
+.container-modal {
+  position: fixed;
+  inset: 0;
+  background: #0004;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.container-modal div {
+background: white;
+border-radius: 10px;
+padding: 10px;
+width: 300px;
+text-align: center;
+}
+
+.container-modal button {
+margin-top: 10px;
+background-color: #ff9800;
+border: none;
+padding: 8px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* paginas */
+
+/* home */
+.home{
+margin-top: 30px;
+}
+
+.home p {
+  margin-bottom: 30px;
+}
+
+.home iframe{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* animais */
+
+.animais-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.animais-div{
+  margin-top: 30px;
+}
+
+
+
