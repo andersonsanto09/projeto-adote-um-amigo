@@ -1,8 +1,11 @@
 function Header() {
     return (
         <header>
-             <h1>🐶 Adote um Amigo 🐱</h1>
+            <div>
+             <h2>Adote um Amigo </h2>
              <img src="" alt="" />
+             </div>
+             <p>Encontre o animal de estimação perfeito para você. Navegue por perfis adoráveis de animais que estão ansiosos para encontrar um lar amoroso.</p>
         </header>
     )
 }
