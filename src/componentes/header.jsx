@@ -1,13 +1,13 @@
 function Header() {
     return (
         <header>
-            <div>
+            <div className="logo">
              <h2>Adote um Amigo </h2>
-             <img src="" alt="" />
+             <img src="src/assets/patas.png" alt="" />
              </div>
-             <p>Encontre o animal de estimação perfeito para você. Navegue por perfis adoráveis de animais que estão ansiosos para encontrar um lar amoroso.</p>
+             <a className="botao-cnt" target="_blank" href="https://whatsapp.com//?helpref=uf_share">Contato</a>
         </header>
     )
 }
 
-export default Header
+export default Header 

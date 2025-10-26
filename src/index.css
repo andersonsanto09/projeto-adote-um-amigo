@@ -4,6 +4,7 @@ body {
   background-color: #FFC87C;
 }
 
+
 .botao-inicio , .botao-animais{
   background:#ff9800 ;
   color: white;
@@ -12,4 +13,8 @@ body {
   border-radius: 18px;
   cursor: pointer;
   
+}
+
+.home{
+  color: white;
 }
