@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './componentes/header'
-import Home from './pages/home'
+import Home from './pages/inicio'
+import Footer from './componentes/footer'
 import Animais from './pages/animais'
 import { useState } from 'react'
 
@@ -20,6 +21,8 @@ function App() {
 
     {pagina == "home" && <Home/>}
     {pagina == "animais" && <Animais/>}
+
+    <Footer/>
     </>
   )
 }

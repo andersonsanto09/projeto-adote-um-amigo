@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:poppins, sans-serif;
   background-color: #FFC87C;
 }
 
@@ -9,12 +9,29 @@ body {
   background:#ff9800 ;
   color: white;
   border: none;
-  padding: 8px;
+  padding: 10px 20px;
   border-radius: 18px;
   cursor: pointer;
-  
+  margin-top: 20px;
+  box-shadow: 0 1px 5px #FF9800;
+  transition: 0.3s;
 }
+
+.botao-animais:hover, .botao-inicio:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 1px 7px #ff9800;
+}
+
+
 
 .home{
   color: white;
+}
+
+.animais-div h2 {
+color: white;
+}
+
+.animais-card {
+  color: #ff9800; 
 }

@@ -40,7 +40,7 @@ return (
             {animais.map ((animal, index) => (
                 <Animalcard 
                 key={index}
-                nome={`id: ${index + 1} Adote um amigo`}
+                nome={`(Cachorro id:${index + 1}) \n Adote um animal!`}
                 imagem={animal.url}
                 onadotar={() => Handleadotar(animal)}
                 />
