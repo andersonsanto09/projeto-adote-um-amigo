@@ -1,4 +1,4 @@
-
+import headerImg from '../assets/img-header.png';
 
 function Home() {
     return (
@@ -14,7 +14,7 @@ function Home() {
                         Ao adotar um animal, você não está apenas salvando uma vida, mas também ganhando um companheiro leal e amoroso que trará alegria e felicidade para sua casa.</p>
                     </div>  
 
-                    <img src="src/pages/img-header.png" alt="" />
+                    <img src={headerImg} alt="" />
             </div>                
             <div>
                     <p className="video-title">Veja um video sobre adoção responsavel: </p>

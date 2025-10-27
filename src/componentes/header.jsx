@@ -1,9 +1,11 @@
+import patas from '../assets/patas.png';
+
 function Header() {
     return (
         <header>
             <div className="logo">
              <h2>Adote um Amigo </h2>
-             <img src="src/patas.png" alt="" />
+             <img src={patas} alt="" />
              </div>
                <h5 className="meio-header">Bem vindo ao Adote um amigo!</h5>
              <a className="botao-cnt" target="_blank" href="https://whatsapp.com//?helpref=uf_share">Contato</a>
