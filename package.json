@@ -2,7 +2,7 @@
   "homepage": "https://github.com/andersonsanto09/projeto-adote-um-amigo.git",
   "name": "jovem-tech",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -25,6 +25,7 @@
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
+    "gh-pages": "^6.3.0",
     "globals": "^16.4.0",
     "vite": "npm:rolldown-vite@7.1.14"
   },
