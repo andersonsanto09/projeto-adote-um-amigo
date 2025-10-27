@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/andersonsanto09/projeto-adote-um-amigo.git",
+  "homepage": "https://andersonsanto09.github.io/projeto-adote-um-amigo",
   "name": "jovem-tech",
   "private": true,
   "version": "0.0.1",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
